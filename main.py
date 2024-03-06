@@ -16,8 +16,7 @@ def index(item):
 # basic password control
 if password == '123':
     print('correct password!')
-while password.lower() != ('exit'
-                           ''):
+while password.lower() != 'exit':
     if password.lower() == '123':  # if password was correct run this script
         # menu and functions
         print('______Menu______')
